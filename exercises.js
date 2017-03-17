@@ -7,8 +7,8 @@ function multiplyArguments() {
 	//if no arguments are passed in return 0
 	//if one argument is passed in just return it
 	if (!arguments.length) return 0;
-  else if (arguments.length === 1) return arguments[0];
-  else return Array.prototype.slice.call(arguments).reduce(function(s, n) { return s * n; });
+	else if (arguments.length === 1) return arguments[0];
+	else return Array.prototype.slice.call(arguments).reduce(function(s, n) { return s * n; });
 }
 
 function invokeCallback(cb) {
